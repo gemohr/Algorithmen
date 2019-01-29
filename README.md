@@ -1,5 +1,5 @@
 # Algorithmen
--
+
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
 *  Divide and conquer
