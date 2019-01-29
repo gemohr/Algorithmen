@@ -2,7 +2,7 @@
 
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
-*  [Laufzeitbestimmung](https://github.com/gemohr/algorithmen/blob/master/doc/laufzeitbestimen.MD)
+*  [Laufzeitbestimmung](/laufzeit/)
 *  [Divide and conquer](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20conquer)
 *  [Greedy](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
