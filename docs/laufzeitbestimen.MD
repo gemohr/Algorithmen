@@ -1,3 +1,13 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-zlqz{font-weight:bold;background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-n60d{font-weight:bold;background-color:#c0c0c0;border-color:#333333;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-de2y{border-color:#333333;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
 <H1>Laufzeitbestimmung</H1>
 <H2>Einfache Bestimmung</H2>
 <table class="tg">
@@ -80,5 +90,44 @@ public int suche(int[] array, int links, int rechts, int element) {
 <p>Variablen in diesem Beispiel:</p>
 <br>
 <p> a=1 --> da maximal einmal wieder die Methode <strong>suche()</strong> aufgerufen wird.</p>
-<p> b=2 --> da int mitte = (links+rechts)/<strong>2</strong></p>
-<p> f(n)=1 --> da keine Schleifen verwendet werden und maximal eine Zuweißung gemacht wird</p>
+<p> b=2 --> da int mitte = (links+rechts)/<strong>2</strong>, dies bedeutet n wird immer halbiert n/2</p>
+<p> f(n)=10 --> da keine Schleifen verwendet werden und maximal eine Zuweißung und primitive Operationen gemacht werden</p>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-ipa1{font-weight:bold;background-color:#c0c0c0;text-align:center}
+.tg .tg-s268{text-align:left}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-ipa1">Fall</th>
+    <th class="tg-ipa1">gilt für a &gt;= 1 und b &gt;=1</th>
+    <th class="tg-ipa1">dann ist: </th>
+  </tr>
+  <tr>
+    <td class="tg-s268">1</td>
+    <td class="tg-s268">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>O</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mi>b</mi></msub><mi>a</mi><mo>-</mo><mi>&#x3B5;</mi></mrow></msup><mo>)</mo><mo>&#xA0;</mo><mi>f</mi><mi>&#xFC;</mi><mi>r</mi><mo>&#xA0;</mo><mi>&#x3B5;</mi><mo>&gt;</mo><mn>0</mn></math></td>
+    <td class="tg-s268"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mi>b</mi></msub><mi>a</mi></mrow></msup><mo>)</mo></math></td>
+  </tr>
+  <tr>
+    <td class="tg-s268">2</td>
+    <td class="tg-s268"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mi>b</mi></msub><mi>a</mi></mrow></msup><mo>)</mo></math>
+</td>
+    <td class="tg-s268">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mi>b</mi></msub><mi>a</mi></mrow></msup><mi>log</mi><mo>&#xA0;</mo><mi>n</mi><mo>)</mo></math>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-0lax">
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x3A9;</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mi>b</mi></msub><mi>a</mi><mo>+</mo><mi>&#x3B5;</mi></mrow></msup><mo>)</mo><mo>&#xA0;</mo><mi>f</mi><mi>&#xFC;</mi><mi>r</mi><mo>&#xA0;</mo><mi>&#x3B5;</mi><mo>&gt;</mo><mn>0</mn></math></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</table>
+
+
+
