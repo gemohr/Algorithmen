@@ -36,7 +36,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
 ## [Dynamische Programmierung](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
 
-* [0-1 Rucksackproblem] (https://github.com/gemohr/algorithmen/tree/master/dynamic/0-1-Rucksackproblem_dynam)
+* [0-1 Rucksackproblem](https://github.com/gemohr/algorithmen/tree/master/dynamic/0-1-Rucksackproblem_dynam)
 * [Ähnliche Summe](https://github.com/gemohr/algorithmen/tree/master/dynamic/aehnlicheSumme_dyn)
 * [Catalanzahlen](https://github.com/gemohr/algorithmen/tree/master/dynamic/catalanzahlen)
 * [Fibonacci](https://github.com/gemohr/algorithmen/tree/master/dynamic/fibonacci_dyn)
