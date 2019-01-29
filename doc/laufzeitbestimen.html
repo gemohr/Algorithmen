@@ -1,0 +1,69 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-zlqz{font-weight:bold;background-color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-n60d{font-weight:bold;background-color:#c0c0c0;border-color:#333333;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-de2y{border-color:#333333;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<H1>Laufzeitbestimmung</H1>
+<H2>Einfache Bestimmung</H2>
+<table class="tg">
+  <tr>
+    <th class="tg-zlqz">Laufzeit</th>
+    <th class="tg-zlqz">Code</th>
+    <th class="tg-zlqz">Bezeichnung</th>
+    <th class="tg-n60d">Bemerkung</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">O(1)<br></td>
+    <td class="tg-0pky">Zuweißungen:<br>int a = 4;<br>int b = 4;<br>int c = b;<br>Primitive Operationen:<br>int d = a+b;<br>int e = a-b;<br>int f = a*b;<br>int g = a/b;<br>int h = a%b;<br>…</td>
+    <td class="tg-0pky">Konstante Laufzeit</td>
+    <td class="tg-de2y">Primitive Operationen:( +, −, *, /, mod, div, &lt;, &gt;, ==, !=, &lt;=, &gt;=, etc.)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">O(n)<br></td>
+    <td class="tg-0pky">for(int i = 0; i &lt; n; i++ ) for(int i = n; i &gt;= 0; i - - )</td>
+    <td class="tg-0pky">Lineare Laufzeit</td>
+    <td class="tg-de2y"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">O(n^2)<br></td>
+    <td class="tg-0pky">for(int i = 0; i &lt; n; i++ ) {for(int i = n; i &gt;= 0; i - - )}</td>
+    <td class="tg-0pky">Quadratische Laufzeit</td>
+    <td class="tg-de2y">Verschachtelte Schleifen die jeweils von 0 bis n laufen</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">O(log n)</td>
+    <td class="tg-0lax">for(int i = 0; i &lt; n; i*=2) for(int i = n; i &gt;=; i/=2) </td>
+    <td class="tg-0lax">Logaritmische Laufzeit</td>
+    <td class="tg-de2y"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">O(n log n)</td>
+    <td class="tg-0lax">for(int i = 0; i &lt; n; i*=2){for(int i = n; i &gt;= 0; i - - )}</td>
+    <td class="tg-0lax">Logaritmische Laufzeit</td>
+    <td class="tg-de2y">Verschachtelte Schleifen die jeweils von 0 bis n laufen</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">O(n^x)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Potenzielle Laufzeit<br></td>
+    <td class="tg-de2y"><br>n^3 --&gt; 3 verschachtelte Schleifen die alle von 0 bin n laufen</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><br>O(2^n)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Expotentielle Laufzeit</td>
+    <td class="tg-de2y">Algorithmus kommt in der Praxis meist nicht in Frage.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">O(n!)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Laufzeit von der Fakultät von n</td>
+    <td class="tg-de2y">Sollte in der Praxis aufjedenfall vermieden werden</td>
+  </tr>
+</table>
+<H2>Mastertheorem</H2>
