@@ -67,3 +67,28 @@
   </tr>
 </table>
 <H2>Mastertheorem</H2>
+Wird verwendet um die Laufzeit bei Teile und Herrsche Algotithmen zu bestimmen
+<H3>Formel:</H3>
+<p>T(n) = a * T(n/b) +f(n)</p>
+<lable for="bsp_javacode1">Beispiel Java Code:</lable>
+<pre id="bsp_javacode1">
+//Binäre Suche
+public int suche(int[] array, int links, int rechts, int element) { 
+		if (rechts-links < 0) return -1;
+		int mitte = (links + rechts)/2;
+		if (element == array[mitte]) return mitte;
+		if (element < array[mitte]) return suche(array, links, mitte-1, element); 
+		else	return suche(array, mitte+1, rechts, element);
+}
+</pre>
+<p>Hier ist die Laufzeit O(log n). Warum ist das so?</p>
+<p>Wenn man sich die Formel anschaut, kann hat man 2 Variablen erkennen, dass sind <strong>a</strong> und <strong>b</strong>. Weiter gibt es noch die Funktion <strong>f(n)</strong>, dies sind die wichtigsten Indikatoren für die Laufzeit bei der Rekursion.</p>
+<p>Dabei ist <strong>a</strong> der Rekursive Aufruf, pro Aufruf der Methode.</p>
+<p><strong>b</strong> ist die Menge der Zerlegung des Problems in Teilprobleme</p>
+<p>Die Funktion <strong>f(n)</strong> ist die Laufzeit die wärend eines Methodenaufrufs benötigt wird.</p>
+<br>
+<p>Variablen in diesem Beispiel:</p>
+<br>
+<p> a=1 --> da maximal einmal wieder die Methode <strong>suche()</strong> aufgerufen wird.</p>
+<p> b=2 --> da int mitte = (links+rechts)/<strong>2</strong></p>
+<p> f(n)=1 --> da keine Schleifen verwendet werden und maximal eine Zuweißung gemacht wird</p>
