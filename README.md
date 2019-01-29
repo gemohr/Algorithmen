@@ -2,11 +2,11 @@
 
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
-*  Divide and conquer [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20conquer)
-*  Greedy [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
-*  Dynamische Programmierung [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20greedy)
+*  [Divide and conquer](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20conquer)
+*  [Greedy](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20greedy)
+*  [Dynamische Programmierung](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
 
-## Divide and conquer
+## [Divide and conquer](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20conquer)
 
 * Binärzahl berechnen einer Zahl n
 * Fakultät einer Zahl n
@@ -24,7 +24,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * Maximum berechnen
 
 
-## Greedy
+## [Greedy](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20greedy)
 
 * Approximate Bin Packing
 * A*-Algorithmus
@@ -33,7 +33,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * Wechselgeld
 
 
-##Dynamisches Programmieren
+## [Dynamische Programmierung](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
 
 * 0-1 Rucksackproblem
 * Ähnliche Summe
