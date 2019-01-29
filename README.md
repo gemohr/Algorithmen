@@ -2,9 +2,9 @@
 
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
-*  Divide and conquer
-*  Greedy
-*  Dynamische Programmierung
+*  Divide and conquer [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20conquer)
+*  Greedy [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20dynamic)
+*  Dynamische Programmierung [a link](https://github.com/gemohr/algorithmen/tree/master/%20divide%20and%20greedy)
 
 ## Divide and conquer
 
