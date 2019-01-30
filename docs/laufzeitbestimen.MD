@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <H1>Laufzeitbestimmung</H1>
 <H2>Einfache Bestimmung</H2>
 <table class="tg">
