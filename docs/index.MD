@@ -44,3 +44,4 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * [Binominalkoeffizienten (n über k)](https://github.com/gemohr/Algorithmen/tree/master/dynamic/binominalkoeffizient_dyn)
 * [Zahlen Dreieck finde die Maximale Summe](https://github.com/gemohr/Algorithmen/tree/master/dynamic/zahlen-dreieck)
 * [Längste gemeinsame Teilfolge in zwei Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_gemeinsame_teilfolge)
+* [Längste aufsteigende Teilfolge in einer Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_austeigende_teilfolge)
