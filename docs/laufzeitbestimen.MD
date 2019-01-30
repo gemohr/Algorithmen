@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<button><a href="https://gemohr.github.io/Algorithmen/">Zurück</a></button>
+<button onclick="location.href='https://gemohr.github.io/Algorithmen/';">Zurück</button>
 <H1>Laufzeitbestimmung</H1>
 <H2>Einfache Bestimmung</H2>
 <table class="tg">
