@@ -85,7 +85,7 @@ public int suche(int[] array, int links, int rechts, int element) {
 <br>
 <p> a=1 --> da maximal einmal wieder die Methode <strong>suche()</strong> aufgerufen wird.</p>
 <p> b=2 --> da int mitte = (links+rechts)/<strong>2</strong>, dies bedeutet n wird immer halbiert n/2</p>
-<p> f(n)=10 --> da keine Schleifen verwendet werden und maximal eine Zuweißung und primitive Operationen gemacht werden</p>
+<p> f(n)=10 = 1(da hier unerheblich ob 10 oder 1) --> da keine Schleifen verwendet werden und maximal eine Zuweißung und primitive Operationen gemacht werden</p>
 <p>Nun kann man die die Variablen a,b und die Funktion f(n) in die, in der Tabelle unten 
  befindlichen Formeln einsetzen</p>
  
