@@ -45,3 +45,4 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * [Zahlen Dreieck finde die Maximale Summe](https://github.com/gemohr/Algorithmen/tree/master/dynamic/zahlen-dreieck)
 * [Längste gemeinsame Teilfolge in zwei Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_gemeinsame_teilfolge)
 * [Längste aufsteigende Teilfolge in einer Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_austeigende_teilfolge)
+* [Summe von Produkten](https://github.com/gemohr/Algorithmen/tree/master/dynamic/summe_von_produkten)
