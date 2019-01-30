@@ -2,7 +2,7 @@
 
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
-*  [Laufzeitbestimmung](https://gemohr.github.io/Algorithmen/laufzeitbestimen.html)
+*  [Laufzeitbestimmung](./laufzeitbestimen.MD)
 *  [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
 *  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20dynamic)
@@ -42,3 +42,4 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * [Catalanzahlen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/catalanzahlen)
 * [Fibonacci](https://github.com/gemohr/Algorithmen/tree/master/dynamic/fibonacci_dyn)
 * [Binominalkoeffizienten (n über k)](https://github.com/gemohr/Algorithmen/tree/master/dynamic/binominalkoeffizient_dyn)
+* [Zahlen Dreieck finde die Maximale Summe](https://github.com/gemohr/Algorithmen/tree/master/dynamic/zahlen-dreieck)
