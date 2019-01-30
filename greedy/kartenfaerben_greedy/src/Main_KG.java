@@ -1,3 +1,4 @@
+//Greedyschritt nimm die die Aktuelle Farbe und schaue ob kein nachbar diese Besitz ansonsten erhöhe die Farbe
 public class Main_KG {
     public static void main(String[] args) {
 
