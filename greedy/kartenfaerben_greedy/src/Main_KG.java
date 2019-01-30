@@ -80,7 +80,7 @@ public class Main_KG {
 
                     }
                 }while (!ok);
-
+                
                 col[i]=j;
             }
 
