@@ -82,6 +82,24 @@ public int suche(int[] array, int links, int rechts, int element) {
 <p> a=1 --> da maximal einmal wieder die Methode <strong>suche()</strong> aufgerufen wird.</p>
 <p> b=2 --> da int mitte = (links+rechts)/<strong>2</strong>, dies bedeutet n wird immer halbiert n/2</p>
 <p> f(n)=10 --> da keine Schleifen verwendet werden und maximal eine Zuweißung und primitive Operationen gemacht werden</p>
+<p>Nun kann man die die Variablen a,b und die Funktion f(n) in die, in der Tabelle unten 
+ befindlichen Formeln einsetzen</p>
+ 
+ <p><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>log</mi><mn>2</mn></msub><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mn>0</mn></math></p>
+ 
+ <p>Fall 1:</p>
+ <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mn>2</mn></msub><mn>1</mn><mo>-</mo><mi>&#x3B5;</mi></mrow></msup></math></p>
+ <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi>n</mi><mrow><mn>0</mn><mo>-</mo><mi>&#x3B5;</mi></mrow></msup><mo>&#xA0;</mo><mo>(</mo><mi>d</mi><mi>a</mi><mo>&#xA0;</mo><msup><mi>n</mi><mn>0</mn></msup><mo>=</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mi>k</mi><mi>a</mi><mi>n</mi><mi>n</mi><mo>&#xA0;</mo><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mi>k</mi><mi>e</mi><mi>i</mi><mi>n</mi><mo>&#xA0;</mo><mi>&#x3B5;</mi><mo>&gt;</mo><mn>0</mn><mo>&#xA0;</mo><mi>g</mi><mi>e</mi><mi>b</mi><mi>e</mi><mi>n</mi><mo>,</mo><mo>&#xA0;</mo><mi>d</mi><mi>a</mi><mi>s</mi><mo>&#xA0;</mo><mi>d</mi><mi>i</mi><mi>e</mi><mo>&#xA0;</mo><mi>G</mi><mi>l</mi><mi>e</mi><mi>i</mi><mi>c</mi><mi>h</mi><mi>u</mi><mi>n</mi><mi>g</mi><mo>&#xA0;</mo><mi>l</mi><mi>&#xF6;</mi><mi>s</mi><mi>t</mi><mo>)</mo></math></p>
+<p>Fall 2:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mn>2</mn></msub><mn>1</mn></mrow></msup></math></p> 
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi>n</mi><mn>0</mn></msup></math></p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>=</mo><mn>1</mn><mo>&#xA0;</mo><mo>-</mo><mo>&gt;</mo><mi mathcolor="#00FF00">O</mi><mi mathcolor="#00FF00">K</mi></math></p>
+
+<p>Nun kann in die, in der 3. Spalte stehende Formel eingesetzt werden</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><msup><mi>n</mi><mrow><msub><mi>log</mi><mn>2</mn></msub><mn>1</mn></mrow></msup><mi>log</mi><mo>&#xA0;</mo><mi>n</mi><mo>)</mo></math></p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><msup><mi>n</mi><mn>0</mn></msup><mi>log</mi><mo>&#xA0;</mo><mi>n</mi><mo>)</mo></math></p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><mn>1</mn><mi>log</mi><mo>&#xA0;</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>&#x398;</mi><mo>(</mo><mi>log</mi><mo>&#xA0;</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo></math></p>
+
 <table class="tg">
   <tr>
     <th class="tg-ipa1">Fall</th>
@@ -109,6 +127,3 @@ public int suche(int[] array, int links, int rechts, int element) {
     <td class="tg-0lax"></td>
   </tr>
 </table>
-
-
-
