@@ -25,6 +25,10 @@ public class Main_ND {
 
                     for (int i = 0; i < reihe; i++)
                         //Suche ob in einer Spalte schon eine Dame Steht
+                        /*
+                         * x[i]==x[reihe] Überprüfung ob schon eine Dame in einer Reihe steht
+                         *  Math.abs(x[i] - x[reihe]) == reihe - i Überprüfung ob in der Diagonalen eine Dame steht
+                         */
                         if(x[i] == x[reihe] || Math.abs(x[i] - x[reihe]) == reihe - i) {
                             gefundeneZelle = false;
                         }
