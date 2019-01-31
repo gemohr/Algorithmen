@@ -3,6 +3,7 @@
 Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 
 *  [Laufzeitbestimmung](./laufzeitbestimen.MD)
+    - [Logarithmus Regeln](./Logarithmus_Regeln.MD)
 *  [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
 *  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20dynamic)
