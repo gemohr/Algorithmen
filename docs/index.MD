@@ -59,3 +59,4 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
   - Ähnlich zu 'Das Problem der n Türme', abgeändert wird nur das ein neuer Parameter benötigt wird, um die ersten Reihen zu spezifizieren. Dieser Parameter ist zugleich auch die Ausgabebedingung in Zeile 36
 * [Das Problem der aufsteigenden Türme auf den ersten m Reihen](https://github.com/gemohr/Algorithmen/tree/master/backtracking/aufsteigende_tuerme_auf_den_ersten_m_reihen/src)
   - Ähnlich zu 'Das Problem der Türme auf den ersten m Reihen', nur dass hier noch in der Zeile 29 die Bedingung 'reihe-1 > reihe' hinzugefügt wird 
+* [Alle Wege des Springers](https://github.com/gemohr/Algorithmen/tree/master/backtracking/alle_wege_des_springers/src)
