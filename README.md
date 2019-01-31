@@ -6,6 +6,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 *  [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
 *  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20dynamic)
+*  [Backtracking](https://github.com/gemohr/Algorithmen/tree/master/backtracking)
 
 ## [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
 
@@ -46,5 +47,9 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * [Längste gemeinsame Teilfolge in zwei Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_gemeinsame_teilfolge)
 * [Längste aufsteigende Teilfolge in einer Folgen](https://github.com/gemohr/Algorithmen/tree/master/dynamic/laengste_austeigende_teilfolge)
 * [Summe von Produkten](https://github.com/gemohr/Algorithmen/tree/master/dynamic/summe_von_produkten)
+
+## [Backtracking](https://github.com/gemohr/Algorithmen/tree/master/backtracking)
+
+* [Das Problem der n Damen](https://github.com/gemohr/Algorithmen/tree/master/backtracking/n_damen_problem)
 
 
