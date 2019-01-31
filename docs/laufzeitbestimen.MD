@@ -60,6 +60,8 @@ layout: default
     <td class="tg-de2y">Sollte in der Praxis aufjedenfall vermieden werden</td>
   </tr>
 </table>
+<H2>Ordnung nach Laufzeit</H2>
+<img src="https://latex.codecogs.com/gif.latex?O(log&space;\,&space;n)\subset&space;O(n&space;\,&space;log&space;\,&space;n)\subset&space;O(1)\subset&space;O(n)&space;\subset&space;O(n^2)\subset&space;O(n^x)&space;\subset&space;O(e^n)&space;\subset&space;O(n!)" title="O(log \, n)\subset O(n \, log \, n)\subset O(1)\subset O(n) \subset O(n^2)\subset O(n^x) \subset O(e^n) \subset O(n!)" />
 <H2>Mastertheorem</H2>
 Wird verwendet um die Laufzeit bei Teile und Herrsche Algotithmen zu bestimmen
 <H3>Formel:</H3>
