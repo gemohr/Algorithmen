@@ -51,5 +51,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 ## [Backtracking](https://github.com/gemohr/Algorithmen/tree/master/backtracking)
 
 * [Das Problem der n Damen](https://github.com/gemohr/Algorithmen/tree/master/backtracking/n_damen_problem)
+* [Das Problem der n Türem](https://github.com/gemohr/Algorithmen/tree/master/backtracking/n_tuerme_problem)
+  - Äquivalent zu n Dameproblem nur die if() in Zeile 27 wird geändert, so dass nur geprüft wird ob in einer Spalte schon ein Turm steht
 
 
