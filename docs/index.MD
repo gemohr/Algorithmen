@@ -5,7 +5,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 *  [Laufzeitbestimmung](./laufzeitbestimen.MD)
     - [Logarithmus Regeln](./Logaritmus_regeln.MD)
 *  [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
-*  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
+*  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20dynamic)
 *  [Backtracking](https://github.com/gemohr/Algorithmen/tree/master/backtracking)
 
@@ -27,7 +27,7 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 * [Maximum berechnen](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer/maximum)
 
 
-## [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
+## [Greedy](https://github.com/gemohr/Algorithmen/tree/master/greedy)
 
 * [Approximate Bin Packing](https://github.com/gemohr/Algorithmen/tree/master/greedy/approximate_bin_packing)
 * [A*-Algorithmus](https://github.com/gemohr/Algorithmen/tree/master/greedy/astar)
