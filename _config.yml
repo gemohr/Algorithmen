@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 baseurl: /Algorithmen
 permalink: pretty
+comments: true
