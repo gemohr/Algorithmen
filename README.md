@@ -7,6 +7,14 @@ Dieses Repository zeig ein paar Algorithmen der verschiedenen Methoden:
 *  [Greedy](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20greedy)
 *  [Dynamische Programmierung](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20dynamic)
 *  [Backtracking](https://github.com/gemohr/Algorithmen/tree/master/backtracking)
+*  [Rekursion]()
+
+
+## [Rekursion]()
+
+* [Koch'sche Schneeflocke - Fraktal]()
+
+
 
 ## [Divide and conquer](https://github.com/gemohr/Algorithmen/tree/master/%20divide%20and%20conquer)
 
