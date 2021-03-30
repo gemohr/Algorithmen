@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 baseurl: /Algorithmen
 permalink: pretty
-comments:
+comments: true
  provider: "staticman"
    staticman:
  allowedFields          : ['name', 'email', 'url', 'message']
